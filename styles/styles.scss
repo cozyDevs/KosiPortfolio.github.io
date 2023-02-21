@@ -216,6 +216,10 @@ b{
   text-align: center;
   writing-mode: horizontal-tb;
 }
+.about-text{
+  text-align: left;
+  writing-mode: vertical-rl;
+}
 .Portfolio{
   display: grid;
   grid-template-columns: 350px 350px;
@@ -286,6 +290,11 @@ b{
       }
     }
 }
+
+
+
+
+
 
 .portfolio-item:hover .hover-item{
   opacity: 1;

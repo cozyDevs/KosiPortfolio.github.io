@@ -206,8 +206,12 @@ b {
 .intro-text {
   padding: 2rem 0;
   text-align: center;
-  -ms-writing-mode: lr-tb;
-      writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
+}
+
+.about-text {
+  text-align: left;
+  writing-mode: vertical-rl;
 }
 
 .Portfolio {
