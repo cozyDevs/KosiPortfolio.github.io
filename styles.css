@@ -359,6 +359,59 @@ b {
   
 }
 
+.project-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 1rem;
+}
+
+.project-content .left-project{
+  padding-right: 5rem;
+  text-align: center;
+}
+.project-content .left-project p {
+  
+  line-height: 1.5rem;
+  padding: 1rem;
+  color: var(--color-grey-1);
+}
+.project-content .left-project h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.project-content .right-project .seedlingGIF{
+  border-radius: var(--br-sm-2);
+  height: 30%;
+  width: 70%;
+  margin-left: 4rem;
+  transition: all 0.4s ease-in-out;
+}
+.project-content .right-project .seedlingGIF img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  
+}
+.project-content .right-project .seedlingDots{
+  padding-top: 2rem;
+  border-radius: var(--br-sm-2);
+  height: 89%;
+  width: 58%;
+  margin-left: 4rem;
+  transition: all 0.4s ease-in-out;
+}
+.project-content .right-project .seedlingDots img {
+  width: 120%;
+  height: 60%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0rem;
