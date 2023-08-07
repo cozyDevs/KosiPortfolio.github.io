@@ -70,6 +70,70 @@
               <a href= "https://github.com/cozyDevs/LastSapling" class="icon">
                 <i class="fa-brands fa-github"></i>
               </a>
+
+              <button class ="button open-button">Info!</button>
+
+                <dialog class = "modal" id ="modal">
+                  
+                  <div class = "project-content">
+                      <div class = " left-project">
+                        <h4> The Last Sapling</h4>
+                      <p>
+                        The Last Sapling was created as a submission entry into the Global Game Jam 2023 with the theme of the competition being 'ROOTS'
+                        <br />
+                        <br />
+                        My team consisted of 6 individuals (2 Programmers, 2 Designers and 2 Artists), with myself as both the lead developer and the project lead. The project itself was completed under the time constraint of 47 hours.
+                        <br />
+                        <br />
+                        Last Sapling follows a small sapling creature on its path to escape it and its homelands' dire situation, the entire forest has been overrun and infected by unihabitable creatures. The Sapling carries with it, a magical seed object that would allow the sapling to regrow the ecosystem from scratch, if successful... All it needs is to escape to the surface.
+                        <br />
+                        <br />
+                        <h5> My Part in this: </h5>
+                        My primary responsibility for this project was to lead the team as a whole, but more specifically the Camera and Character Controller as well as the forefront of implementing game mechanics.
+                        <br />
+                        <br />
+                        <h5>Other Responsibilities:</h5>
+                        <br />
+                        Player Character Controller
+                        <br />
+                        Player Camera Controller
+                        <br />
+                        Player Teleporting Abilites
+                        <br />
+                        Player Interaction with Objects and Enemies
+                        <br />
+                        Animation and Sound implementaion
+
+                        <br /><br />
+                        Using the seed as a gameObject the player would be able to throw said object and on request, teleport to 
+                        the landing location of the seed gameObject, this is the essential movement feauture of the game, using the 
+                        seed to teleport and traverse your way out of the platform style maze, while also avoiding the various enemeies and 
+                        their projectiles.
+                        <br />
+                        <br />
+                        The 'angry-birds' like aiming of the seed, was implemented using the basic framework of bezier curves animation,
+                        By using the 3 point control curve and De Casteljau's algorithm. The implementation of the algorithm proved extremely difficult.
+                        It was my first time working with bezier curves or even graph implementaion in a game, the math associated with the aiming also did not turn out as perfectly as I hoped.
+                        <br /><br />
+
+                      </p>
+                      </div>
+                      <div class = "right-project">
+                        <div class="seedlingGIF">
+                          <img src="Images/Seedling GiF.gif" alt="">
+                          <h5> The Teleportation in action! </h5>
+                        </div>
+                        <div class="seedlingDots">
+                          <img src="Images/seedling dots.PNG" alt="">
+                          <h5> Code Snippet for the Trajectory </h5>
+                        </div>
+
+                      </div>
+                  </div>
+                  <button class ="button close-button">CLOSE!</button>
+                </dialog>
+              
+              
             </div>
           </div>
       </div>
@@ -86,6 +150,59 @@
             <a href= "https://youtu.be/0-Tez21_hEw" class="icon">
               <i class="fa-brands fa-youtube"></i>
             </a>
+
+            <button class ="button open-button-grave">Info!</button>
+
+                <dialog class = "modalGrave" id ="modalGrave">
+                  
+                  <div class = "project-content">
+                      <div class = " left-project">
+                        <h4> Grave Dig!</h4>
+                      <p>
+                        Grave Dig was a short story game project completed and submitted to the Pixel Jam Game Jam in the summer of 2022
+                        <br />
+                        <br />
+                        The team was predominantly online, collaborating with people I had never even previously met. It consisted of about 10 -12 individuals all interchanging and working on several aspects of the project
+                        <br />
+                        <br />
+                        Grave Dig is an escape-adventure game that implores the mechanics of Minecraft. The player character has two modes; mining and attacking. The map is randomly generated on every attempt to keep the game fresh and unpredictable
+                        The game is taxing, in the sense as it reveals almost nothing about the surrounding area, the ability to find the quickest escape route and perhaps avoid enemies is purely based on luck.
+                        <br />
+                        <br />
+                        <h5> My Main Part in this: </h5>
+                        Player Controller Design : The player character uses 8-directional top down movement.<br />
+                         Most of the mechnaics forthe movement is assisted by the Unity Input Manager system using in built functions like 'GetAxisRaw' and keywords like 'normalize'
+                        <br />
+                        
+                        <br />
+                        <h5>I also had a hand in :</h5>
+                        •Player Camera Controller
+                        <br />
+                        •Player Mining System
+                        <br />
+                        •Sound Design and implementation
+                    
+                        <br />
+                        <br />
+                       
+
+                      </p>
+                      </div>
+                      <div class = "right-project">
+                        <div class="graveDigGIF">
+                          <img src="Images/graveDig1.gif" alt="">
+                          <h5> Octo-directional movement and Mining in action! </h5>
+                        </div>
+                        <div class="graveDigCode">
+                          <img src="Images/graveDigPaper.jpg" alt="">
+                          <h5> Initial Math Calculation for Player Movement</h5>
+                        </div>
+
+                      </div>
+                  </div>
+                  <button class ="button close-button-grave">CLOSE!</button>
+                </dialog>
+              
           </div>
         </div>
     </div>
@@ -105,6 +222,10 @@
             <a href= "https://github.com/cozyDevs/_FOD.git" class="icon">
               <i class="fa-brands fa-github"></i>
             </a>
+
+            
+            
+
           </div>
       </div>
     </div>
@@ -157,67 +278,6 @@
     </div>
   </div>
 
-  <h4 class="stat-title">The Making of my Projects</h4>
-  <div class = "project-content">
-    <div class = " left-project">
-      <h4> The Last Sapling</h4>
-    <p>
-      The Last Sapling was created as a submission entry into the Global Game Jam 2023 with the theme of the competition being 'ROOTS'
-      <br />
-      <br />
-      My team consisted of 6 individuals (2 Programmers, 2 Designers and 2 Artists), with myself as both the lead developer and the project lead. The project itself was completed under the time constraint of 47 hours.
-      <br />
-      <br />
-      Last Sapling follows a small sapling creature on its path to escape it and its homelands' dire situation, where the entire forest has been overrun and infected by unihabitable creatures. The Splaing carries with it, a magical seed object that would allow the sapling to regrow the ecosystem from scratch, if successful... All it needs is to escape to the surface.
-      <br />
-      <br />
-      <h5> My Part in this: </h5>
-      We used the first few hours to deliberate on the scope of the game;
-      <br />
-      Initially we decided upon a conmbat like system, that uses the seeds as projectles to fend off the enemies, however, that 
-      plan did not last long as we noticed the game started to feel more like a basic platformer with no gimmicks or redeeming qualities
-      <br />
-      <br />
-      The seed-projectile idea was then scrapped, and the seed would be used in a different manner - TELEPORTATION!
-      <br /><br />
-      Using the seed as a gameObject the player would be able to throw said object and on request, teleport to 
-      the landing location of the seed gameObject, this is the essential movement feauture of the game, using the 
-      seed to teleport and traverse your way out of the platform style maze, while also avoiding the various enemeies and 
-      their projectiles.
-      <br />
-      <br />
-      The 'angry-birds' like aiming of the seed, was implemented using the basic framework of bezier curves animation,
-      By using the 3 point control curve and De Casteljau's algorithm. The implementation of the algorithm proved extremely difficult.
-      It was my first time working with bezier curves or even graph implementaion in a game, the math associated with the aiming also did not turn out as perfectly as I hoped.
-      <br /><br />
-      <h5> I also did: </h5>
-      The Camera and Character Controller
-      <br /><br />
-      Animation and Sound implementation.
-      <br /><br />
-      Interaction with enemy Objects.
-
-
-
-       
-
-    
-
   
-      
-    </p>
-    </div>
-    <div class = "right-project">
-      <div class="seedlingGIF">
-        <img src="Images/Seedling GiF.gif" alt="">
-        <h5> The Teleportation in action! </h5>
-      </div>
-      <div class="seedlingDots">
-        <img src="Images/seedling dots.PNG" alt="">
-        <h5> Code Snippet for the Trajectory </h5>
-      </div>
-
-    </div>
-  </div>
-
+<script src="/app.js"></script>
 </body>
