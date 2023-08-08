@@ -216,6 +216,21 @@ b {
   font-weight: 700;
   padding: 10px 20px;
   margin-right: 5px;
+  
+  
+}
+
+.button.open-button-Seedling{
+  background-color: #56b29c;
+  transition:all 300ms ease-in-out;
+}
+.button.open-button-grave{
+  background-color: #0097da;
+  transition:all 300ms ease-in-out;
+}
+.button.open-button-FOD{
+  background-color: #f0a569;
+  transition:all 300ms ease-in-out;
 }
 
 .button:hover,
@@ -224,8 +239,54 @@ b {
 }
 
 
-.modal{
+.modalSeedling{
   background-color: #56b29c;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  padding: 100px 50px;
+  width: 90%;
+  max-width: 300%;
+  max-height: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: -5px;
+  position: top;
+}
+
+.show-modal{
+  opacity: 1;
+  animation: show 0.4s;
+}
+
+@keyframes show{
+  from{
+    opacity : 0;
+    transform: scale(0);
+
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hide-modal{
+  opacity:0;
+  animation: hide .75s;
+}
+
+@keyframes hide{
+  from{
+  opacity: 1;
+  transf5om: scale(1)
+  }
+  to{
+  opacity : 0;
+  transform: scale(0);
+  }
+}
+.modalGrave{
+  background-color: #0097da;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   padding: 100px 50px;
@@ -238,8 +299,8 @@ b {
   position: top;
   
 }
-.modalGrave{
-  background-color: #0097da;
+.modalFOD{
+  background-color: #f0a569;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   padding: 100px 50px;
@@ -475,6 +536,33 @@ b {
 .project-content .right-project .graveDigCode img {
   width: 100%;
   height: 100%;
+  max-height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  
+}
+.project-content .right-project .FODMedusa img {
+  width: 80%;
+  height: 80%;
+  max-height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  
+}
+.project-content .right-project .FODLabyrinth img {
+  width: 80%;
+  height: 80%;
+  max-height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  
+}
+.project-content .right-project .FODDefendGreece img {
+  width: 80%;
+  height: 80%;
   max-height: auto;
   -o-object-fit: cover;
   object-fit: cover;
