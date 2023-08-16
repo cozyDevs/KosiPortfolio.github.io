@@ -659,6 +659,33 @@ b {
     font-size: 2.3rem;
 
   }
+
+  .header-content .right-header .top-contact {
+    display: inline-grid;
+    width: 110%;
+    height: 20%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  .header-content .right-header .top-contact .contact-icon {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .header-content .right-header .top-contact .contact-icon a {
+    display: flex;
+    align-items: center;
+    color: var(--color-black);
+    background-color: var(--color-secondary);
+    cursor: pointer;
+    justify-content: center;
+    z-index: 1;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    transition: all 0.4s ease-in-out;
+  }
   
   .right-header .name {
     display: inline-table;
