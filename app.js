@@ -50,3 +50,13 @@ closeModalFOD.addEventListener("click", () => {
  modalFOD.classList.remove("show-modal");
   modalFOD.classList.add("hide-modal");
 })
+
+
+/*
+ Mobile - 320x 480
+ Tabs - 481 x 768
+ laptops - 769 x 1024
+ Desktops - Normal // 1025 x 1200
+ Extra Large / TV - 1201 >
+
+*/

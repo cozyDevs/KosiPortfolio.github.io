@@ -629,7 +629,7 @@ b {
   }
 }
 /*# sourceMappingURL=styles.css.map */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 330px) {
 
 
   .header-content .right-header {
@@ -641,6 +641,7 @@ b {
     
     bottom: 0;
     max-height: 10% ;
+    background-color: #f0a569;
     
   }
 
