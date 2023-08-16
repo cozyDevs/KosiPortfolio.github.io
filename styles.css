@@ -631,6 +631,16 @@ b {
 /*# sourceMappingURL=styles.css.map */
 @media screen and (max-width: 428px) {
 
+  .header-content .right-header p {
+    padding-left: 20rem;
+  }
+
+
+  .right-header .Portfolio {
+    padding-left: 18rem;
+
+  }
+
 
   .header-content .right-header {
 
@@ -641,14 +651,13 @@ b {
     
     bottom: 0;
     max-height: 10%;
-    background-color: #f0a569;
     width: 100px;
     height: 100px;
   }
 
   .right-header .contact-icons{
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 7rem;
     min-height: 50%;
     min-width: 50%;
     font-size: 2.3rem;
@@ -690,21 +699,23 @@ b {
   .right-header .name {
     display: inline-table;
     align-self: right;
-    font-size: 1.2rem !important;
+    font-size: 1.7rem !important;
     text-align: center;
     box-sizing: content-box !important;
     padding: 5rem;
+    padding-left: 8rem;
     width: 100% !important;
   }
 
   .right-header .btn-con {
-    margin-left: 15rem;
+    padding-left: 22rem;
+    top: 2rem;
 
   }
   .stat-title{
-    display: flex;
+    display: inline-flex;
     box-sizing: content-box !important;
-    padding-left: 16rem;
+    padding-left: 20rem;
     width: 100% !important;
   }
 
@@ -712,7 +723,7 @@ b {
     display: flex;
     box-sizing: content-box !important;
     padding-left: 10rem;
-    width: 100% !important;
+    width: 150% !important;
 
   }
 
@@ -723,7 +734,7 @@ b {
     font-size: 1.2rem !important;
     text-align: center;
     box-sizing: content-box !important;
-    padding-left: 8rem;
+    padding-left: 11rem;
     width: 100% !important;
     
   }
