@@ -92,7 +92,6 @@ b {
   display: inline-grid;
   width: 110%;
   height: 20%;
-  position: top;
   left: 0;
   top: 0;
   z-index: -1;
@@ -610,7 +609,9 @@ b {
     padding-bottom: 1rem;
   }
 }
-@media screen and (max-width: 450px) {
+
+
+@media screen and (max-width: 480px) {
   .right-header .name {
     font-size: 2rem !important;
   }
@@ -626,4 +627,86 @@ b {
     transform: translateX(15%);
     left: 50%;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
+@media screen and (max-width: 300px) {
+
+
+  .header-content .right-header {
+
+    margin-right: 11rem;
+
+  }
+ .right-header .top-contact {
+    
+    bottom: 0;
+    max-height: 10% ;
+    
+  }
+
+  .right-header .contact-icons{
+    height: 0%;
+    align-items: center;
+    padding-left: 2rem;
+    
+  }
+  .right-header .name {
+    display: inline-table;
+    align-self: right;
+    font-size: 1.2rem !important;
+    text-align: center;
+    box-sizing: content-box !important;
+    padding: 5rem;
+    width: 100% !important;
+  }
+
+  .right-header .btn-con {
+    margin-left: 15rem;
+
+  }
+  .stat-title{
+    display: flex;
+    box-sizing: content-box !important;
+    padding-left: 16rem;
+    width: 100% !important;
+  }
+
+  .stat-title::before {
+    display: flex;
+    box-sizing: content-box !important;
+    padding-left: 10rem;
+    width: 100% !important;
+
+  }
+
+
+  .body-content  .left-about{
+    display: inline-table;
+    align-self: center;
+    font-size: 1.2rem !important;
+    text-align: center;
+    box-sizing: content-box !important;
+    padding-left: 8rem;
+    width: 100% !important;
+    
+  }
+
+  .body-content .right-about{
+    display: none;
+  }
+
+
+  .right-header .Portfolio {
+    grid-template-columns: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .right-header .contact-icon {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    transform: translateX(15%);
+    left: 50%;
+  }
+
+}
