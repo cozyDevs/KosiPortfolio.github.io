@@ -81,7 +81,7 @@ b {
   filter: grayscale(0);
 }
 .header-content .right-header {
-  display: top;
+  display: inline-flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 0;
@@ -631,6 +631,7 @@ b {
 /*# sourceMappingURL=styles.css.map */
 @media screen and (max-width: 428px) {
 
+
   .header-content .right-header p {
     padding-left: 20rem;
   }
@@ -643,8 +644,13 @@ b {
 
 
   .header-content .right-header {
-
-    margin-right: 11rem;
+   
+    top: 50%;
+    margin-left: 5rem;
+    margin-right:5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
 
   }
  .right-header .top-contact {
