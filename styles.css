@@ -727,7 +727,7 @@ b {
     box-sizing: content-box !important;
     padding-left: 20rem;
     width: 100% !important;
-    transform: translate(10%, -6%);
+    transform: translate(12.5%, -6%);
   }
 
   .stat-title::before {
@@ -747,7 +747,7 @@ b {
     box-sizing: content-box !important;
     padding-left: 11rem;
     width: 100% !important;
-    transform: translate(10%, -15%);
+    transform: translate(14.75%, -15%);
     
   }
 
