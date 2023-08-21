@@ -569,7 +569,7 @@ b {
   
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   header {
     padding: 0rem;
   }
@@ -611,7 +611,7 @@ b {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .right-header .name {
     font-size: 2rem !important;
   }
@@ -619,6 +619,11 @@ b {
     grid-template-columns: auto;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+
+    padding-left: 2rem;
+    transform: translate(15%, 0%);
+
+
   }
   .right-header .contact-icon {
     width: auto;
@@ -627,6 +632,62 @@ b {
     transform: translateX(15%);
     left: 50%;
   }
+
+  .right-header .name {
+    display: inline;
+    align-self: right;
+    font-size: 2.3rem !important;
+    text-align: center;
+    box-sizing: content-box !important;
+    padding: 1rem;
+    padding-left: 8rem;
+    width: 100% !important;
+    transform: translate(-5%, -6%);
+  }
+
+  .right-header .btn-con {
+    transform: translate(90%, 0%);
+
+  }
+  .intro-text{
+    text-align: center;
+    transform: translate(20%, 0%);
+  }
+
+  
+
+  .body-content .left-about {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    max-width: 200%;
+    width: 200%;
+    
+  }
+  .stat-title{
+    text-align: center;
+    box-sizing: content-box !important;
+    width: 100% !important;
+    padding: 1rem;
+    
+  }
+
+  .body-content .right-about .team-image{
+    border-radius: var(--br-sm-2);
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    transform: translate(-80%, 100%);
+  }
+  .body-content .right-about .team-image img {
+    width: 140%;
+    height: 120%;
+    -o-object-fit: fill;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out; 
+  }
+
+
 }
 /*# sourceMappingURL=styles.css.map */
 @media screen and (max-width: 428px) {
