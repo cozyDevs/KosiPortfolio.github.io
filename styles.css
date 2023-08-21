@@ -94,7 +94,7 @@ b {
   height: 20%;
   left: 0;
   top: 0;
-  z-index: -1;
+  z-index: 1;
 }
 .header-content .right-header .top-contact .contact-icon {
   display: flex;
@@ -722,7 +722,7 @@ b {
     width: 100px;
     height: 100px;
     transform: translate(5%, -6%);
-  }
+  } 
 
   .right-header .contact-icons{
     align-items: center;
