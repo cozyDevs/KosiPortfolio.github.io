@@ -1,6 +1,7 @@
 const modalSeedling = document.querySelector("#modalSeedling");
 const modalGrave = document.querySelector("#modalGrave");
 const modalFOD = document.querySelector("#modalFOD");
+const modalResume = document.querySelector("#modalResume");
 
 
 const openModalSeedling = document.querySelector(".open-button-Seedling");
@@ -9,6 +10,8 @@ const openModalGrave = document.querySelector(".open-button-grave");
 const closeModalGrave = document.querySelector(".close-button-grave");
 const openModalFOD = document.querySelector(".open-button-FOD");
 const closeModalFOD = document.querySelector(".close-button-FOD");
+const openModalResume = document.querySelector(".open-button-Resume");
+const closeModalResume = document.querySelector(".close-button-Resume");
 
 openModalSeedling.addEventListener("click", () => {
   modalSeedling.showModal();
@@ -50,6 +53,22 @@ closeModalFOD.addEventListener("click", () => {
  modalFOD.classList.remove("show-modal");
   modalFOD.classList.add("hide-modal");
 })
+
+openModalResume.addEventListener("click", () => {
+  modalResume.showModal();
+  modalResume.scrollTop =0;
+  modalResume.classList.remove("hide-modal");
+  modalResume.classList.add("show-modal");
+})
+
+closeModalResume.addEventListener("click", () => {
+ modalResume.close();
+ modalResume.classList.remove("show-modal");
+  modalResume.classList.add("hide-modal");
+})
+
+
+
 
 
 /*
