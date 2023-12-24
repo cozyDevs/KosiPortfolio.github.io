@@ -850,6 +850,15 @@ b {
     transform: translateX(150%);
   }
 
+  .modalResume {
+
+    height: 100%;
+    width: 120%;
+    max-width: 120%;
+
+  }
+
+
   .project-content {
     display: flex;
     flex-direction: column;
