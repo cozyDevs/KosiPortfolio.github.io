@@ -689,6 +689,7 @@ b {
 
 
 @media screen and (max-width: 810px) {
+
   .right-header .name {
     font-size: 2rem !important;
   }
@@ -697,17 +698,28 @@ b {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 
-    padding-left: 2rem;
+    padding-left: 2rem; 
     transform: translate(15%, 0%);
 
 
   }
   .right-header .contact-icon {
-    width: auto;
-    height: auto;
+    top:auto;
+    bottom: auto;
+    flex-direction :row;
     justify-content: center;
-    transform: translateX(15%);
+    transform:translateX(13%);
     left: 50%;
+    width: 100%;
+  }
+
+  .header-content .right-header .top-contact .contact-icon {
+    align-self: center !important;
+  }
+
+  .header-content .right-header .top-contact .contact-icon a {
+    margin: 1rem .3rem;
+    justify-items: left !important;
   }
 
   .right-header .name {
@@ -767,144 +779,99 @@ b {
 
 }
 /*# sourceMappingURL=styles.css.map */
-@media screen and (max-width: 428px) {
+@media only screen and (max-device-width: 500px) {
 
-
-  .header-content .right-header p {
-    padding-left: 20rem;
-    transform: translate(7%, -6%);
-  }
-
-
-  .right-header .Portfolio {
-    padding-left: 18rem;
-    transform: translate(10%, 0%);
-
-  }
-
-
-  .header-content .right-header {
-   
-    top: 50%;
-    margin: 6rem;
-    transform: translate(-15.5%, 0);
-
-    
-
-  }
- .right-header .top-contact {
-    
-    bottom: 0;
-    max-height: 10%;
-    width: 100px;
-    height: 100px;
-    transform: translate(5%, -6%);
-  } 
-
-  .right-header .contact-icons{
-    align-items: center;
-    padding-left: 7rem;
-    min-height: 50%;
-    min-width: 50%;
-    font-size: 2.3rem;
-    
-  }
-
-  .header-content .right-header .top-contact .contact-icon a i {
-    font-size: 2.3rem;
-
-  }
-
-  .header-content .right-header .top-contact {
-    display: inline-grid;
-    width: 110%;
-    height: 20%;
-    left: 0;
-    top: 0;
-    z-index: -1;
-  }
-  .header-content .right-header .top-contact .contact-icon {
-    display: flex;
-    margin-top: 2rem;
-  }
-  .header-content .right-header .top-contact .contact-icon a {
-    display: flex;
-    align-items: center;
-    color: var(--color-black);
-    background-color: var(--color-secondary);
-    cursor: pointer;
-    justify-content: center;
-    z-index: 1;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    margin: 0 0.4rem;
-    transition: all 0.4s ease-in-out;
-  }
-  
   .right-header .name {
-    display: inline-table;
-    align-self: right;
-    font-size: 1.7rem !important;
+    display: initial;
+    font-size: 2.3rem !important;
     text-align: center;
     box-sizing: content-box !important;
-    padding: 5rem;
-    padding-left: 8rem;
-    width: 100% !important;
-    transform: translate(6%, -6%);
-  }
-
-  .right-header .btn-con {
-    padding-left: 22rem;
-    top: 2rem;
-    transform: translate(6%, 2%);
-
-  }
-  .stat-title{
-    display: inline-flex;
-    box-sizing: content-box !important;
-    padding-left: 20rem;
-    width: 100% !important;
-    transform: translate(12.5%, -6%);
-  }
-
-  .stat-title::before {
-    display: flex;
-    box-sizing: content-box !important;
-    padding-left: 10rem;
+    padding: 0;
+    padding-left: 0;
     width: 150% !important;
+    transform: translate(0, 0);
+  }
+
+  .button.open-button-Resume {
+    transform: translate(-55px, 0);
 
   }
 
-
-  .body-content  .left-about{
-    display: inline-table;
-    align-self: center;
-    font-size: 1.2rem !important;
-    text-align: center;
-    box-sizing: content-box !important;
-    padding-left: 11rem;
-    width: 100% !important;
-    transform: translate(14.75%, -15%);
-    
+  .intro-text{
+    font-size: 1.5rem !important;
+    width: 150% !important;
+    transform: translate(10px, 0);
   }
 
-  .body-content .right-about{
-    display: none;
+  h6{
+      width : 150%;
   }
-
 
   .right-header .Portfolio {
-    grid-template-columns: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    padding-left: 0;
+
+    transform: translate(0%, 0%);
   }
-  .right-header .contact-icon {
-    width: auto;
+
+  .Portfolio{
+    width: 170%;
+  }
+
+  .stat-title {
+      transform: translateX(10px)
+  }
+
+  .body-content .right-about .team-image {
+
+    margin-left: 0;
+
+  }
+
+  .body-content .right-about .team-image img {
+
+    max-width: 150%;
+    min-width: 225px;
     height: auto;
-    justify-content: center;
-    transform: translateX(15%);
-    left: 50%;
+    object-fit: fill;
+    transition: all 0.4s ease-in-out;
+
   }
+
+  .Resume-project-content {
+
+    grid-template-columns: auto;
+    object-fit:none;
+    transform: translateX(0);
+    width: 170%;
+    height: 170%;
+  }
+
+  .button.close-button-Resume{
+    transform: translateX(150%);
+  }
+
+  .project-content {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .link-icons {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    transform: translate(-30px , -30px);
+  }
+
+  .project-content .left-project {
+    padding-right: 0;
+  }
+
+  .project-content .right-project {
+    transform: scale(1,1);
+
+
+  }
+
 
 }

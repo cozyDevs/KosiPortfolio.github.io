@@ -4,6 +4,9 @@ const modalFOD = document.querySelector("#modalFOD");
 const modalResume = document.querySelector("#modalResume");
 
 
+
+
+
 const openModalSeedling = document.querySelector(".open-button-Seedling");
 const closeModalSeedling = document.querySelector(".close-button-Seedling");
 const openModalGrave = document.querySelector(".open-button-grave");
@@ -66,6 +69,8 @@ closeModalResume.addEventListener("click", () => {
  modalResume.classList.remove("show-modal");
   modalResume.classList.add("hide-modal");
 })
+
+
 
 
 
