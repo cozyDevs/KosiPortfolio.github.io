@@ -840,7 +840,7 @@ b {
   .Resume-project-content {
 
     grid-template-columns: auto;
-    object-fit:none;
+    object-fit:fill;
     transform: translateX(0);
     width: 170%;
     height: 170%;
