@@ -1,3 +1,4 @@
+const modalEngine = document.querySelector("#modalEngine");
 const modalSeedling = document.querySelector("#modalSeedling");
 const modalGrave = document.querySelector("#modalGrave");
 const modalFOD = document.querySelector("#modalFOD");
@@ -7,6 +8,9 @@ const modalResume = document.querySelector("#modalResume");
 
 
 
+
+const openModalEngine = document.querySelector(".open-button-Engine");
+const closeModalEngine = document.querySelector(".close-button-Engine");
 const openModalSeedling = document.querySelector(".open-button-Seedling");
 const closeModalSeedling = document.querySelector(".close-button-Seedling");
 const openModalGrave = document.querySelector(".open-button-grave");
@@ -15,6 +19,22 @@ const openModalFOD = document.querySelector(".open-button-FOD");
 const closeModalFOD = document.querySelector(".close-button-FOD");
 const openModalResume = document.querySelector(".open-button-Resume");
 const closeModalResume = document.querySelector(".close-button-Resume");
+
+openModalEngine.addEventListener("click", () => {
+  modalEngine.showModal();
+  modalEngine.scrollTop = 0;
+  modalEngine.classList.remove("hide-modal");
+  modalEngine.classList.add("show-modal");
+  
+ 
+});
+
+closeModalEngine.addEventListener("click", () => {
+  modalEngine.close();
+  modalEngine.classList.remove("show-modal");
+  modalEngine.classList.add("hide-modal");
+
+});
 
 openModalSeedling.addEventListener("click", () => {
   modalSeedling.showModal();

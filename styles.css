@@ -224,6 +224,11 @@ b {
   transition:all 300ms ease-in-out;
 }
 
+.button.open-button-Engine{
+  background-color: #8CBCB9;
+  transition:all 300ms ease-in-out;
+}
+
 .button.open-button-Seedling{
   background-color: #56b29c;
   transition:all 300ms ease-in-out;
@@ -235,6 +240,20 @@ b {
 .button.open-button-FOD{
   background-color: #f0a569;
   transition:all 300ms ease-in-out;
+}
+
+.modalEngine{
+  background-color: #8CBCB9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  padding: 100px 50px;
+  width: 90%;
+  max-width: 300%;
+  max-height: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: -5px;
+  position: top;
 }
 
 .button:hover,
@@ -568,7 +587,7 @@ b {
 .project-content .left-project h5 {
   font-size: 1rem;
   text-transform: uppercase;
-  padding-left: 1rem;
+  padding-left: 0;
 }
  h6{
   font-size: 1rem;
